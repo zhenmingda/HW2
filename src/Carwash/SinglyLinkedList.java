@@ -1,3 +1,5 @@
+package Carwash;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -20,11 +22,6 @@ public class SinglyLinkedList<E> implements List<E>{
         newEntry.next=head;
         head=newEntry;
         return true;
-    }
-
-    @Override
-    public String toString() {
-        return "Hello World";
     }
 
     public int size(){
@@ -190,3 +187,6 @@ public class SinglyLinkedList<E> implements List<E>{
         }
     }
 }
+
+
+
